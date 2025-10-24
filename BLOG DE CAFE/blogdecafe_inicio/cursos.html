@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogdeCafe</title>
+    <meta name="description" content="Blog de Café - Consejos y cursos para los amantes del café. Aprende sobre tipos de grano, recetas y beneficios del café.">
+    <!--Prefetch-->
+    <link rel="prefetch" href="contacto.html" as="document">
+    <!--Preload-->
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <link rel="preload" href="./css/estilo.css" as="style">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" crossorigin="crossorigin" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="./index.html" class="logo no-margin centrar-texto">
+                    <h1 class="logo__nombre no-margin">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+
+                </nav>
+            </div>
+        </div>
+        <div class = "header__texto">
+            <h2 class="no-margin">Consejos y cursos</h2>
+            <p class="no-margin">Un lugar para los amantes del café</p>
+        </div>
+
+    </header>
+
+    <main class="contenedor">
+       <h3 class="centrar-texto">Nuestros próximos cursos y talleres</h3>
+       <!--CURSO 1-->
+       <div class="curso">
+            <div class="curso__imagen">
+                <img loading="lazy" src="./img/curso1.jpg" alt="Curso de café">
+            </div>
+
+            <div class="curso__informacion">
+                <h4 class="no-margin centrar-texto">Técnicas de Extracción de Café</h4>
+                <p class="curso__label centrar-texto">Precio:
+                <span class="curso__info">Gratis</span>
+                </p>
+                <p class="curso__label centrar-texto">Cupo:
+                <span class="curso__info">20 personas</span>
+                </p>
+                <div  class="">
+                    <a href="entrada.html" class="boton boton--secundario">Inscribete hoy mismo</a>
+
+                </div>
+                <p class="curso__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio odio illum accusamus, adipisci nihil beatae dolorem voluptates possimus odit mollitia temporibus. Neque quas debitis ea vitae, modi corporis distinctio.</p>
+
+            </div> <!--Cierra informacion de curso-->
+        </div><!--Cierra curso 1-->
+
+        <!--CURSO 2-->
+        <div class="curso">
+            <div class="curso__imagen">
+                <img loading="lazy" src="./img/curso2.jpg" alt="Curso de café">
+            </div>
+
+            <div class="curso__informacion">
+                <h4 class="no-margin centrar-texto">Taller para Tostar y Moler Granos</h4>
+                <p class="curso__label centrar-texto">Precio:
+                <span class="curso__info">Gratis</span>
+                </p>
+                <p class="curso__label centrar-texto">Cupo:
+                <span class="curso__info">20 personas</span>
+                </p>
+                <div class="">
+                    <a href="entrada.html" class="boton boton--secundario">Inscribete hoy mismo</a>
+                </div>
+            
+                <p class="curso__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio odio illum accusamus, adipisci nihil beatae dolorem voluptates possimus odit mollitia temporibus. Neque quas debitis ea vitae, modi corporis distinctio.</p>
+
+            </div> <!--Cierra informacion de curso-->
+        </div><!--Cierra curso 1-->
+
+        <!--CURSO 3-->
+        <div class="curso">
+            <div class="curso__imagen">
+                <img loading="lazy" src="./img/curso3.jpg" alt="Curso de café">
+            </div>
+
+            <div class="curso__informacion">
+                <h4 class="no-margin centrar-texto">4 recetas para café para principiantes</h4>
+                <p class="curso__label centrar-texto">Precio:
+                <span class="curso__info">Gratis</span>
+                </p>
+                <p class="curso__label centrar-texto">Cupo:
+                <span class="curso__info">20 personas</span>
+                </p>
+                <div class="">
+                    <a href="entrada.html" class="boton boton--secundario">Inscribete hoy mismo</a>
+                </div>
+            
+                <p class="curso__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio odio illum accusamus, adipisci nihil beatae dolorem voluptates possimus odit mollitia temporibus. Neque quas debitis ea vitae, modi corporis distinctio.</p>
+
+            </div> <!--Cierra informacion de curso-->
+        </div><!--Cierra curso 1-->
+
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="./index.html" class="logo no-margin centrar-texto">
+                <h1 class="logo__nombre no-margin">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="./JavaScript/Modernizr.js"></script>
+</body>
+</html>
